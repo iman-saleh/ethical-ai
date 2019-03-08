@@ -39,3 +39,23 @@ License
 ---------
 
 Affero GPLv3 http://www.gnu.org/licenses/agpl-3.0.html
+
+Bias Utility Script
+=============================
+
+The Bias_Detection.ipynb demonstrates capabilities to measure bias in the model.
+
+The script downloads images and models hosted in [AWS S3] (https://s3-us-west-1.amazonaws.com/strata-bias-data2/inputdata.tar.gz). The script runs detection on images and models in inputdata directory.  The script then calculates mean difference and unexplainable mean difference between pedestrian detection accuracy at day time vs night time images. The detected images are stored in outputdata directory.
+
+The script is tested on  and Python 3.6 and requires Tensorflow, Numpy, OpenCV and Pillow.
+
+Contact
+--------
+
+Cindy Tseng
+cindy.s.tseng@intel.com
+
+License
+---------
+
+Affero GPLv3 http://www.gnu.org/licenses/agpl-3.0.html
